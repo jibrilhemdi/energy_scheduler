@@ -44,6 +44,7 @@ You must download them manually from the official sources below.
 
 ### 🔹 Electricity Prices (Day-Ahead)
 **Ember – European Wholesale Electricity Price Data**
+
 https://ember-energy.org/data/european-wholesale-electricity-price-data/
 
 Used file structure:
@@ -56,6 +57,7 @@ Place the file at:
 
 ### 🔹 Electricity Load (Contextual, optional)
 **ENTSO‑E Transparency Platform – Monthly Hourly Load Values**
+
 https://www.entsoe.eu/data/power-stats/
 
 Files are published per year.
