@@ -52,7 +52,7 @@ Used file structure:
 - Columns include: all_countries.csv
 
 Place the file at:
-data/all_countries.csv
+```data/all_countries.csv```
 
 ### 🔹 Electricity Load (Contextual, optional)
 **ENTSO‑E Transparency Platform – Monthly Hourly Load Values**
@@ -61,7 +61,8 @@ https://www.entsoe.eu/data/power-stats/
 Files are published per year.
 
 Expected local paths:
-```data/monthly_hourly_load_values_2019.csv
+```
+data/monthly_hourly_load_values_2019.csv
 data/monthly_hourly_load_values_2020.csv
 ...
 data/monthly_hourly_load_values_2025.csv
@@ -72,7 +73,7 @@ data/monthly_hourly_load_values_2025.csv
 -----------------
 
 ## 🗂 Project Structure
-
+```
 energy_scheduler/
 │
 ├── app/
@@ -92,19 +93,24 @@ energy_scheduler/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+```
 
 ----------
 
 ## ▶️ How to Run
 
 1. Create environment & install dependencies
+<br>
    ```pip install -r requirements.txt```
 
 2. Download data
+<br>
    Place `all_countries.csv` into `data/`
+   
    (Optional) Place ENTSO‑E yearly load CSVs into `data/`
 
 3. Start Streamlit
+<br>
    ```streamlit run app/streamlit_app.py```
 
 -------
