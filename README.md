@@ -7,7 +7,7 @@ The project focuses on decision-making under uncertainty (not asset-level engine
 
 ----------------
 
-## Project Overview
+## 🎯 Project Overview
 
 This simulator models a fixed-MW electricity portfolio trading in the day-ahead market, with:
 
@@ -24,7 +24,7 @@ This simulator models a fixed-MW electricity portfolio trading in the day-ahead 
 
 --------------------
 
-## Modeling Assumptions
+## 🧠 Modeling Assumptions
 
 - Positive MW = consumption (retail-style portfolio)
 - Negative MW = generation (producer-style portfolio)
@@ -100,17 +100,14 @@ energy_scheduler/
 ## ▶️ How to Run
 
 1. Create environment & install dependencies
-<br>
    ```pip install -r requirements.txt```
 
 2. Download data
-<br>
    Place `all_countries.csv` into `data/`
-   
+
    (Optional) Place ENTSO‑E yearly load CSVs into `data/`
 
 3. Start Streamlit
-<br>
    ```streamlit run app/streamlit_app.py```
 
 -------
